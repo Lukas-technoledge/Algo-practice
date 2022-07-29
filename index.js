@@ -7,7 +7,8 @@ function prime(n) {
     if (n%i === 0) {
       return false
     }
-    return true
   }
+  return true;
+}
  
-console.log(prime(1));
+console.log(prime(5));
